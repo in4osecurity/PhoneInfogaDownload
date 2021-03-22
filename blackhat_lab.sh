@@ -2,8 +2,8 @@
 
 # Bash installation script for UNIX systems only
 # Use it : curl -sSL https://raw.githubusercontent.com/sundowndev/PhoneInfoga/master/support/scripts/install | bash
-apt install figlet
-figlet -f slant Black Hat
+apt install toilet lolcat
+toilet -f mono12 -F border BLACK HAT | lolcat
 os="$(uname -s)_$(uname -m)"
 echo "Подпишись на наш Telegram канал ~> t.me/blackhat_lab"
 
